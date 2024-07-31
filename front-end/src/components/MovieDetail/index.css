@@ -1,0 +1,76 @@
+.font-color{
+  color:#ffffff;
+  max-width:100px;
+  word-wrap:break-word;
+}
+
+.font-color-2{
+  color:#ffffff;
+  max-width:400px;
+}
+
+.font-color-1{
+  color:#ffffff;
+}
+
+.font-color-4{
+  color:#ffffff;
+  padding-left: 55px;
+  padding-top: 15px;
+}
+
+.genre-data{
+  color:#ffffff;
+}
+
+.cast-data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin:15px;
+  background-color: #222222;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.true-cast-profile{
+  height: 150px;
+  width: 100px;
+}
+
+.false-cast-profile{
+  height: 150px;
+  width: 130px;
+}
+
+.home-movies{
+  flex-wrap: wrap;
+  
+}
+
+.movie-detail-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.genre-cont{
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-detail-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.cast-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}

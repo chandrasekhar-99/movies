@@ -1,0 +1,26 @@
+
+
+.home-container{
+  
+  background-size: cover;
+  margin-top: 0px;
+}
+
+.home-movies{
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  
+}
+
+.page-title{
+  color:#ffffff;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}

@@ -1,0 +1,25 @@
+.movies-list-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 15px;
+  
+}
+
+.id-style{
+  color:#ffffff;
+}
+.title-name{
+  color:#ffffff;
+  max-width:200px;
+  word-wrap:break-word;
+}
+
+.date-style{
+  color:#ffffff;
+}
+
+.link-item{
+  text-decoration: none;
+}
