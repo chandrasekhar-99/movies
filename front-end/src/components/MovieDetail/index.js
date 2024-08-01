@@ -82,23 +82,12 @@ const MovieDetail = () => {
     )
   }
 
-  /*const renderDirector = () => {
-    return(
-      <ul>
-        {direct.map(each => (
-          
-            <p>{each.name}</p>
-          
-        ))}
-      </ul>
-    )
-  }*/
+  
 
     const filterDirector = direct.filter((direct) =>{
       return direct.job === "Director"
     } )
 
-    console.log(filterDirector[0].name)
 
   
 
